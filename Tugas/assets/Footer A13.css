@@ -35,10 +35,15 @@ body {
 }
 
 /* Footer @ Noor-Adibi */
+footer {
+  height: 650px;
+  width: 100%;
+  background-color: var(--dark-gray);
+}
+
 .footer-atas-wrap {
   margin-top: 30px;
   height: 550px;
-  background-color: var(--dark-gray);
 }
 
 .border-kiri-fki {
@@ -117,11 +122,6 @@ body {
   border: 2px solid #fc0404;
 }
 
-.variable {
-  margin-left: 20px;
-  float: left;
-}
-
 .footer-kanan {
   color: white;
 }
@@ -143,10 +143,30 @@ body {
 }
 
 .fka a {
+  opacity: 0.8;
   text-decoration: none;
   color: white
 }
 
-.footer-bawah {
-  position: relative
+.fka a:hover {
+  opacity: 1;
+  text-decoration: underline
+}
+
+.footer-bawah-wrap {
+  background-color: var(--golden);
+  height: 75px;
+  width: 100%;
+  color: white;
+}
+
+.variable {
+  margin: 5px 0 0 35px;
+  float: left;
+}
+
+.hak-cipta {
+  margin: 10px 35px 0 0;
+  float: right;
+  font-size: 14px;
 }
