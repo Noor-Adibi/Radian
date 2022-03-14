@@ -1,0 +1,110 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.logo-header {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.list-header li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+.main h1 {
+  font-size: 140px;
+}
+
+.main h2 {
+  font-size: 60px;
+}
+
+.intro span {
+  color: #ff4a4a;
+}
+
+.konten {
+  margin-top: 100px;
+  height: 500px;
+}
+
+.judul-konten {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.konten-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.konten-item p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.form h3 {
+  padding-top: 100px;
+  
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color:#889eab;
+}
+
+.footer {
+  height: 120px;
+  padding: 40px;
+  background-color: #2f5167;
+  color: #fff;
+}
+
+.footer p {
+  font-size: 32px;
+  float: left;
+}
+
+.footer ul {
+  float: right;
+}
+
+.footer li {
+  padding-bottom: 20px;
+}
