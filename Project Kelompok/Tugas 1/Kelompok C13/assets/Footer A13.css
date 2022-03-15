@@ -50,14 +50,14 @@ footer {
   width: 10px;
   height: 550px;
   margin-left: 35px;
-  background-color: var(--golden);
+  background-color: var(--light-purple);
   float: left;
 }
 
 .border-kanan-fki {
   width: 10px;
   height: 550px;
-  background-color: var(--golden);
+  background-color: var(--light-purple);
   float: left;
 }
 
@@ -74,7 +74,7 @@ footer {
   text-align: center; 
   letter-spacing: 3px;
   background-color: var(--red-maroon);
-  border-bottom: 5px solid var(--golden);
+  border-bottom: 5px solid var(--light-purple);
 }
 
 .sosmed a {
@@ -154,7 +154,7 @@ footer {
 }
 
 .footer-bawah-wrap {
-  background-color: var(--golden);
+  background-color: var(--light-purple);
   height: 75px;
   width: 100%;
   color: white;
