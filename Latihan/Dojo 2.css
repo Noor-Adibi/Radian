@@ -112,15 +112,16 @@ header {
   line-height: 65px;
   padding: 25px;
   color: white;
+  transition: all 0.3s;
 }
 
 .login:hover {
-  background-color: rgba(255, 255, 255, 0.5); 
+  background-color: rgba(255, 255, 255, 0.3); 
 }
 
 .konten2 {
   background-color: #f7f7f7;
-  height: 500px;
+  height: 450px;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 80px;
@@ -154,4 +155,47 @@ header {
   margin-top: 20px;
   font-size: 15px;
   color: #b3aeb5;
+}
+
+.konten3 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.word-k3 h2{
+  font-weight: normal;
+}
+
+.word-k3 h3{
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.learn {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  text-decoration: none;
+}
+
+.learn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px; 
 }
