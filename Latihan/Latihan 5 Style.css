@@ -1,8 +1,6 @@
-/* Apply box-sizing: border-box; to all the elements */
 * {
   box-sizing: border-box;
 }
-
 
 body {
   margin: 0;
@@ -13,9 +11,13 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
 .container {
-  /* Change the width to 100% */
-  width: 100%px;
+  max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -115,8 +117,18 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+/* Add CSS for menu-icon */
+.menu-bar {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Change the display property to none */
+  display: none !important;
+}
+
+
 .lesson-wrapper {
-  height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
